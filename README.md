@@ -4,15 +4,14 @@
 
 Clone the repository
 
-    git clone https://github.com/lujakob/nestjs-realworld-example-app.git
+    git clone https://github.com/nexuiz-cc/NESTJS_sample.git
 
 Switch to the repo folder
 
-    cd nestjs-realworld-example-app
+    cd NESTJS_sample
 
 Install dependencies
     
-
     npm install
 
 Copy config file and set JsonWebToken secret key
@@ -23,12 +22,8 @@ Copy config file and set JsonWebToken secret key
 
 ## Database
 
-The codebase contains examples of two different database abstractions, namely [TypeORM](http://typeorm.io/) and [Prisma](https://www.prisma.io/). 
-    
+The codebase contains examples of two different database abstractions, namely [TypeORM](http://typeorm.io/) .
 The branch `master` implements TypeORM with a mySQL database.
-
-The branch `prisma` implements Prisma with a mySQL database.
-
 ----------
 
 ##### TypeORM
